@@ -3,6 +3,6 @@
 
 #include <ostream>
 
-void HelloWorld(std::ostream &ostream);
+void HelloWorld(const std::string &name, std::ostream &ostream);
 
 #endif // !HELLO_WORLD_H

@@ -1,5 +1,5 @@
 #include <ostream>
 
-void HelloWorld(std::ostream &ostream) {
-  ostream << "Hello World!" << std::endl;
+void HelloWorld(const std::string &name, std::ostream &ostream) {
+  ostream << "Hello " << name << "!" << std::endl;
 }
