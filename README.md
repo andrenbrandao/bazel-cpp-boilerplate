@@ -34,4 +34,5 @@ bazel run @hedron_compile_commands//:refresh_all
 
 - [Bazel](https://bazel.build/) as the build tool.
 - [Google Test](https://google.github.io/googletest/) for testing.
+- [Abseil](https://abseil.io/) as an opensource collection of C++ libraries.
 - [Bazel Compile Commands Extractor](https://github.com/hedronvision/bazel-compile-commands-extractor) to support autocompletion in Neovim and IDEs.
