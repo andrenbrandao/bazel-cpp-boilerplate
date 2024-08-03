@@ -22,3 +22,16 @@ cc_test(
     ":hello_world",
   ],
 )
+
+sh_test(
+    name = "hello_integration_test",
+    size = "small",
+    srcs = ["hello_integration_test.sh"],
+    data = [
+      ":hello_main",
+      "testdata/expected_output.txt"
+    ],
+    args = [
+      '$(location :hello_main)',
+    ],
+)
